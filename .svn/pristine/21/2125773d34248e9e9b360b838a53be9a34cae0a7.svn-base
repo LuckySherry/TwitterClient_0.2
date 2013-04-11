@@ -1,0 +1,404 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: hk.ust.cse.TwitterClient.Views.WholePageTest</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../../../../../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['hk.ust.cse.TwitterClient.Views.WholePageTest'] = new Array();
+    
+        cur['ant.core.lib'] = 'D:\\Program Files\\apache-ant-1.8.4\\lib\\ant.jar';
+    
+        cur['ant.file'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.home'] = 'D:\\Program Files\\apache-ant-1.8.4';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = 'D:\\Program Files\\apache-ant-1.8.4\\lib';
+    
+        cur['ant.project.default-target'] = 'all';
+    
+        cur['ant.project.invoked-targets'] = 'coverage';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.8.4 compiled on May 22 2012';
+    
+        cur['awt.toolkit'] = 'sun.awt.windows.WToolkit';
+    
+        cur['basedir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient';
+    
+        cur['base-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient';
+    
+        cur['cobertura-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\cobertura';
+    
+        cur['cobertura-html-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\cobertura\\html';
+    
+        cur['cobertura-xml-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\cobertura\\xml';
+    
+        cur['file.encoding'] = 'GBK';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '\\';
+    
+        cur['instrumented-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\instrumented';
+    
+        cur['instrument-file'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\instrumented\\cobertura.ser';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.Win32GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.awt.windows.WPrinterJob';
+    
+        cur['java.class.path'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\instrumented;D:\\Study\\Java\\Workplace\\TwitterClient\\bin;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\com.ibm.icu_4.4.2.v20110823.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\junit-4.4.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.core.commands_3.6.1.v20120814-150512.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.core.runtime_3.8.0.v20120521-2346.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.equinox.common_3.6.100.v20120522-1841.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.jface.text_3.8.1.v20120828-155502.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.jface_3.8.101.v20120817-083647.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.osgi_3.8.1.v20120830-144521.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.text_3.5.200.v20120523-1310.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.ui.forms_3.5.200.v20120705-114351.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\org.eclipse.ui.workbench_3.103.1.v20120906-120042.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\twitter4j-async-3.0.3.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\twitter4j-core-3.0.3.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib\\swt-4.2.1-win32-win32-x86.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\asm-3.0.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\asm-tree-3.0.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\cobertura.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\jakarta-oro-2.0.8.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\junit-4.4.jar;D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test\\log4j-1.2.9.jar;D:\\Program Files\\apache-ant-1.8.4\\lib\\ant-launcher.jar;D:\\Program Files\\apache-ant-1.8.4\\lib\\ant.jar;D:\\Program Files\\apache-ant-1.8.4\\lib\\ant-junit.jar;D:\\Program Files\\apache-ant-1.8.4\\lib\\ant-junit4.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\endorsed';
+    
+        cur['java.ext.dirs'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\ext;C:\\windows\\Sun\\Java\\lib\\ext';
+    
+        cur['java.home'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre';
+    
+        cur['java.io.tmpdir'] = 'C:\\Users\\cwk\\AppData\\Local\\Temp\\';
+    
+        cur['java.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\bin;C:\\windows\\Sun\\Java\\bin;C:\\windows\\system32;C:\\windows;C:\\Program Files\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\AMD APP\\bin\\x86;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Lenovo\\Bluetooth Software\\;D:\\Program Files\\MATLAB\\R2012b\\runtime\\win32;D:\\Program Files\\MATLAB\\R2012b\\bin;D:\\Program Files\\apache-ant-1.8.4\\bin;C:\\Program Files\\Java\\jdk1.7.0_02\\bin;;.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_02-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.7.0_02';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) Client VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '22.0-b10';
+    
+        cur['junit-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\junit';
+    
+        cur['junit-html-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\junit\\html';
+    
+        cur['junit-xml-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\junit\\xml';
+    
+        cur['lib-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\lib';
+    
+        cur['lib-test-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\lib-test';
+    
+        cur['line.separator'] = '\r\n';
+    
+        cur['net.sourceforge.cobertura.datafile'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report\\instrumented\\cobertura.ser';
+    
+        cur['os.arch'] = 'x86';
+    
+        cur['os.name'] = 'Windows 7';
+    
+        cur['os.version'] = '6.1';
+    
+        cur['out-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\bin';
+    
+        cur['path.separator'] = ';';
+    
+        cur['report-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\report';
+    
+        cur['src-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\src';
+    
+        cur['sun.arch.data.model'] = '32';
+    
+        cur['sun.boot.class.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\resources.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\rt.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\sunrsasign.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\jsse.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\jce.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\lib\\charsets.jar;C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\classes';
+    
+        cur['sun.boot.library.path'] = 'C:\\Program Files\\Java\\jdk1.7.0_02\\jre\\bin';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = 'pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86';
+    
+        cur['sun.desktop'] = 'windows';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner hk.ust.cse.TwitterClient.Views.WholePageTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\\Study\\Java\\Workplace\\TwitterClient\\report\\junit\\xml\\TEST-hk.ust.cse.TwitterClient.Views.WholePageTest.xml crashfile=D:\\Study\\Java\\Workplace\\TwitterClient\\junitvmwatcher3918272281090421002.properties propsfile=D:\\Study\\Java\\Workplace\\TwitterClient\\junit1505224775876479212.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'GBK';
+    
+        cur['sun.management.compiler'] = 'HotSpot Client Compiler';
+    
+        cur['sun.os.patch.level'] = 'Service Pack 1';
+    
+        cur['swt.library'] = 'swt-4.2.1-win32-win32-x86.jar';
+    
+        cur['target-jar'] = 'hk.ust.cse.TwitterClient.jar';
+    
+        cur['test-dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient\\test';
+    
+        cur['user.country'] = 'CN';
+    
+        cur['user.dir'] = 'D:\\Study\\Java\\Workplace\\TwitterClient';
+    
+        cur['user.home'] = 'C:\\Users\\cwk';
+    
+        cur['user.language'] = 'zh';
+    
+        cur['user.name'] = 'cwk';
+    
+        cur['user.script'] = '';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.variant'] = '';
+    
+        cur['XstartOnFirstThread'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class hk.ust.cse.TwitterClient.Views.WholePageTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a title="Display all tests" href="0_WholePageTest.html">WholePageTest</a></td><td><a title="Display all tests" href="0_WholePageTest.html">52</a></td><td><a title="Display only errors" href="0_WholePageTest-errors.html">1</a></td><td>0</td><td>7.336</td><td>2013-04-05T14:47:08</td><td>cwk-PC</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBackgroundImageUrlHttps"></a>testGetProfileBackgroundImageUrlHttps</td><td>Success</td><td></td><td>0.027</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a name="testWholePage"></a>testWholePage</td><td>Error</td><td>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.
+message - Sorry, that page does not exist
+code - 34
+<br>
+<br>
+<code>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.<br>message - Sorry, that page does not exist<br>code - 34<br>
+<br>Relevant discussions can be found on the Internet at:<br>	http://www.google.co.jp/search?q=b029ad3d or<br>	http://www.google.co.jp/search?q=119baa9d<br>TwitterException{exceptionCode=[b029ad3d-119baa9d], statusCode=404, message=Sorry, that page does not exist, code=34, retryAfter=-1, rateLimitStatus=null, version=3.0.3}<br>	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)<br>	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)<br>	at twitter4j.internal.http.HttpClientWrapper.post(HttpClientWrapper.java:98)<br>	at twitter4j.TwitterImpl.post(TwitterImpl.java:1853)<br>	at twitter4j.TwitterImpl.retweetStatus(TwitterImpl.java:260)<br>	at hk.ust.cse.TwitterClient.Views.TweetView.retweetgfunction(TweetView.java:319)<br>	at hk.ust.cse.TwitterClient.Views.WholePageTest.testWholePage(WholePageTest.java:131)<br>
+</code></td><td>7.030</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetRateLimitStatus"></a>testGetRateLimitStatus</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testCompareTo"></a>testCompareTo</td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetAccessLevel"></a>testGetAccessLevel</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetCreatedAt"></a>testGetCreatedAt</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetBiggerProfileImageURLHttps"></a>testGetBiggerProfileImageURLHttps</td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetDescriptionURLEntities"></a>testGetDescriptionURLEntities</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetMiniProfileImageURLHttps"></a>testGetMiniProfileImageURLHttps</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetOriginalProfileImageURL"></a>testGetOriginalProfileImageURL</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetOriginalProfileImageURLHttps"></a>testGetOriginalProfileImageURLHttps</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBackgroundColor"></a>testGetProfileBackgroundColor</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBackgroundImageURL"></a>testGetProfileBackgroundImageURL</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBackgroundImageUrl"></a>testGetProfileBackgroundImageUrl</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerIPadRetinaURL"></a>testGetProfileBannerIPadRetinaURL</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerMobileRetinaURL"></a>testGetProfileBannerMobileRetinaURL</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerMobileURL"></a>testGetProfileBannerMobileURL</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerRetinaURL"></a>testGetProfileBannerRetinaURL</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileSidebarBorderColor"></a>testGetProfileSidebarBorderColor</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetId"></a>testGetId</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetLang"></a>testGetLang</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetName"></a>testGetName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetURL"></a>testGetURL</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetBiggerProfileImageURL"></a>testGetBiggerProfileImageURL</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFavouritesCount"></a>testGetFavouritesCount</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFollowersCount"></a>testGetFollowersCount</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetMiniProfileImageURL"></a>testGetMiniProfileImageURL</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerIPadURL"></a>testGetProfileBannerIPadURL</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileBannerURL"></a>testGetProfileBannerURL</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileImageURL"></a>testGetProfileImageURL</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileImageURLHttps"></a>testGetProfileImageURLHttps</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileImageUrlHttps"></a>testGetProfileImageUrlHttps</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileLinkColor"></a>testGetProfileLinkColor</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileTextColor"></a>testGetProfileTextColor</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsContributorsEnabled"></a>testIsContributorsEnabled</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsFollowRequestSent"></a>testIsFollowRequestSent</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsProfileBackgroundTiled"></a>testIsProfileBackgroundTiled</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsShowAllInlineMedia"></a>testIsShowAllInlineMedia</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetFriendsCount"></a>testGetFriendsCount</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetListedCount"></a>testGetListedCount</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetScreenName"></a>testGetScreenName</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetStatus"></a>testGetStatus</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetStatusesCount"></a>testGetStatusesCount</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetTimeZone"></a>testGetTimeZone</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetURLEntity"></a>testGetURLEntity</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetUtcOffset"></a>testGetUtcOffset</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsGeoEnabled"></a>testIsGeoEnabled</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsProtected"></a>testIsProtected</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsTranslator"></a>testIsTranslator</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsVerified"></a>testIsVerified</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testGetProfileSidebarFillColor"></a>testGetProfileSidebarFillColor</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="testIsProfileUseBackgroundImage"></a>testIsProfileUseBackgroundImage</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('hk.ust.cse.TwitterClient.Views.WholePageTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<div class="Properties">
+<a href="./0_WholePageTest-out.html">
+                        System.out &raquo;
+                    </a>
+</div>
+</body>
+</html>

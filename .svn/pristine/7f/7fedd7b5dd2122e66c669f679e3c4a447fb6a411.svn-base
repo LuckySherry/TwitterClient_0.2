@@ -1,0 +1,7 @@
+# This sample oauth file is for REFERENCE ONLY. Obtain your own oauth keys 
+# from Twitter yourself following: https://course.cse.ust.hk/comp3111/projects/P0H/P0H-Sign_Twitter.pdf
+debug=false
+oauth.consumerKey=qZEmMI6GUKWo9Wk1On6w
+oauth.consumerSecret=lz98Z79m0fzZeXKE7VPiQeItq90pKknNVMaEOgTAIQs
+oauth.accessToken=1153258969-aSP1jjHbfACyvVQCjEpU5wDlxxDD6TryoiV79Wj
+oauth.accessTokenSecret=rDqF16xeCVa5M9zsT7zOjBH0SclvLbUjxYWZ7zQrag

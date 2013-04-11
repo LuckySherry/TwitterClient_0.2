@@ -1,0 +1,58 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Controls/0_TweetViewControlTest.html">TweetViewControlTest</a></td><td><a name="testControl"></a><a href="test/hk/ust/cse/TwitterClient/Controls/0_TweetViewControlTest.html#testControl">testControl</a></td><td>Success</td><td></td><td>16.874</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Resources/1_ResourceTest.html">ResourceTest</a></td><td><a name="test"></a><a href="test/hk/ust/cse/TwitterClient/Resources/1_ResourceTest.html#test">test</a></td><td>Success</td><td></td><td>0.503</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_TwitterClientTest.html">TwitterClientTest</a></td><td><a name="testMain"></a><a href="test/hk/ust/cse/TwitterClient/2_TwitterClientTest.html#testMain">testMain</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_TwitterClientTest.html">TwitterClientTest</a></td><td><a name="testConstructor"></a><a href="test/hk/ust/cse/TwitterClient/2_TwitterClientTest.html#testConstructor">testConstructor</a></td><td>Success</td><td></td><td>2.872</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testLoadImageFromUrl"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testLoadImageFromUrl">testLoadImageFromUrl</a></td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testAddClickListener"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testAddClickListener">testAddClickListener</a></td><td>Success</td><td></td><td>0.339</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testIsNullOrEmpty"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testIsNullOrEmpty">testIsNullOrEmpty</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testCutRoundCorner"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testCutRoundCorner">testCutRoundCorner</a></td><td>Success</td><td></td><td>0.059</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testGetColorFromString"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testGetColorFromString">testGetColorFromString</a></td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html">UtilsTest</a></td><td><a name="testSelectImageVersion"></a><a href="test/hk/ust/cse/TwitterClient/3_UtilsTest.html#testSelectImageVersion">testSelectImageVersion</a></td><td>Success</td><td></td><td>0.963</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Views/User/4_UserMenuTest.html">UserMenuTest</a></td><td><a name="testConstructor"></a><a href="test/hk/ust/cse/TwitterClient/Views/User/4_UserMenuTest.html#testConstructor">testConstructor</a></td><td>Success</td><td></td><td>1.503</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Views/5_ViewsTest.html">ViewsTest</a></td><td><a name="ViewsConstructor"></a><a href="test/hk/ust/cse/TwitterClient/Views/5_ViewsTest.html#ViewsConstructor">ViewsConstructor</a></td><td>Success</td><td></td><td>2.445</td>
+</tr>
+</table>
+</body>
+</html>

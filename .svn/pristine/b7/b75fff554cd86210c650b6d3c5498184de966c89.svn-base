@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TwitterClient</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/hk/ust/cse/TwitterClient/Resources/discover.png</name>
+			<type>1</type>
+			<location>F:/Documents/JAVA/TwitterClient/src/hk/ust/cse/TwitterClient/Resources/discover.png</location>
+		</link>
+		<link>
+			<name>src/hk/ust/cse/TwitterClient/Resources/discover2.png</name>
+			<type>1</type>
+			<location>F:/Documents/JAVA/TwitterClient/src/hk/ust/cse/TwitterClient/Resources/discover2.png</location>
+		</link>
+		<link>
+			<name>src/hk/ust/cse/TwitterClient/Resources/post.png</name>
+			<type>1</type>
+			<location>F:/Documents/JAVA/TwitterClient/src/hk/ust/cse/TwitterClient/Resources/post.png</location>
+		</link>
+		<link>
+			<name>src/hk/ust/cse/TwitterClient/Resources/post2.png</name>
+			<type>1</type>
+			<location>F:/Documents/JAVA/TwitterClient/src/hk/ust/cse/TwitterClient/Resources/post2.png</location>
+		</link>
+	</linkedResources>
+</projectDescription>

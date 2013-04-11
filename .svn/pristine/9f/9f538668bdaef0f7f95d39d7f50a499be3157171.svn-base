@@ -1,0 +1,70 @@
+package hk.ust.cse.TwitterClient.Views.Home;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.wb.swt.SWTResourceManager;
+
+public class Post extends Shell {
+	private Text text;
+
+	/**
+	 * Launch the application.
+	 * @param args
+	 */
+	public static void main(String args[]) {
+		try {
+			Display display = Display.getDefault();
+			Post shell = new Post(display);
+			shell.open();
+			shell.layout();
+			while (!shell.isDisposed()) {
+				if (!display.readAndDispatch()) {
+					display.sleep();
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Create the shell.
+	 * @param display
+	 */
+	public Post(Display display) {
+		super(display, SWT.SHELL_TRIM);
+		
+		Composite composite = new Composite(this, SWT.NONE);
+		composite.setBounds(10, 10, 169, 64);
+		
+		Composite composite_1 = new Composite(this, SWT.NONE);
+		composite_1.setBackground(SWTResourceManager.getColor(211, 211, 211));
+		composite_1.setBounds(10, 86, 169, 114);
+		
+		text = new Text(composite_1, SWT.BORDER);
+		text.setBounds(10, 10, 149, 61);
+		
+		Button btnTweet = new Button(composite_1, SWT.NONE);
+		btnTweet.setBounds(113, 77, 46, 27);
+		btnTweet.setText("Tweet");
+		createContents();
+	}
+
+	/**
+	 * Create contents of the shell.
+	 */
+	protected void createContents() {
+		setText("SWT Application");
+		setSize(450, 300);
+
+	}
+
+	@Override
+	protected void checkSubclass() {
+		// Disable the check that prevents subclassing of SWT components
+	}
+}

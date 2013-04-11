@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="PC-20120926RGMK" name="test.hk.ust.cse.TwitterClient.Views.ViewsTest" tests="1" time="2.555" timestamp="2013-03-02T10:27:15">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="target-jar" value="hk.ust.cse.TwitterClient.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_13\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="net.sourceforge.cobertura.datafile" value="C:\TwitterClient\TwitterClient\report\instrumented\cobertura.ser" />
+    <property name="ant.home" value="D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4" />
+    <property name="java.runtime.version" value="1.7.0_13-b20" />
+    <property name="cobertura-dir" value="C:\TwitterClient\TwitterClient\report\cobertura" />
+    <property name="cobertura-html-dir" value="C:\TwitterClient\TwitterClient\report\cobertura\html" />
+    <property name="user.name" value="Administrator" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\bin" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="java.version" value="1.7.0_13" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_13\jre" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="C:\TwitterClient\TwitterClient\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="report-dir" value="C:\TwitterClient\TwitterClient\report" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.7-b01" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Administrator" />
+    <property name="test-dir" value="C:\TwitterClient\TwitterClient\test" />
+    <property name="junit-dir" value="C:\TwitterClient\TwitterClient\report\junit" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\bin;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="swt.library" value="swt-4.2.1-win32-win32-x86.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="cobertura-xml-dir" value="C:\TwitterClient\TwitterClient\report\cobertura\xml" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.hk.ust.cse.TwitterClient.Views.ViewsTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\TwitterClient\TwitterClient\report\junit\xml\TEST-test.hk.ust.cse.TwitterClient.Views.ViewsTest.xml crashfile=C:\TwitterClient\TwitterClient\junitvmwatcher1565432934134038358.properties propsfile=C:\TwitterClient\TwitterClient\junit1504419969412792029.properties" />
+    <property name="java.class.path" value="C:\TwitterClient\TwitterClient\report\instrumented;C:\TwitterClient\TwitterClient\bin;C:\TwitterClient\TwitterClient\lib\com.ibm.icu_4.4.2.v20110823.jar;C:\TwitterClient\TwitterClient\lib\junit-4.4.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.core.commands_3.6.1.v20120814-150512.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.core.runtime_3.8.0.v20120521-2346.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.equinox.common_3.6.100.v20120522-1841.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.jface.text_3.8.1.v20120828-155502.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.jface_3.8.101.v20120817-083647.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.osgi_3.8.1.v20120830-144521.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.text_3.5.200.v20120523-1310.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.ui.forms_3.5.200.v20120705-114351.jar;C:\TwitterClient\TwitterClient\lib\org.eclipse.ui.workbench_3.103.1.v20120906-120042.jar;C:\TwitterClient\TwitterClient\lib\twitter4j-async-3.0.3.jar;C:\TwitterClient\TwitterClient\lib\twitter4j-core-3.0.3.jar;C:\TwitterClient\TwitterClient\lib\swt-4.2.1-win32-win32-x86.jar;C:\TwitterClient\TwitterClient\lib-test\asm-3.0.jar;C:\TwitterClient\TwitterClient\lib-test\asm-tree-3.0.jar;C:\TwitterClient\TwitterClient\lib-test\cobertura.jar;C:\TwitterClient\TwitterClient\lib-test\jakarta-oro-2.0.8.jar;C:\TwitterClient\TwitterClient\lib-test\junit-4.4.jar;C:\TwitterClient\TwitterClient\lib-test\log4j-1.2.9.jar;D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib\ant-launcher.jar;D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib\ant.jar;D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib\ant-junit.jar;D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="junit-html-dir" value="C:\TwitterClient\TwitterClient\report\junit\html" />
+    <property name="base-dir" value="C:\TwitterClient\TwitterClient" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
+    <property name="lib-test-dir" value="C:\TwitterClient\TwitterClient\lib-test" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="instrumented-dir" value="C:\TwitterClient\TwitterClient\report\instrumented" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\TwitterClient\TwitterClient" />
+    <property name="junit-xml-dir" value="C:\TwitterClient\TwitterClient\report\junit\xml" />
+    <property name="instrument-file" value="C:\TwitterClient\TwitterClient\report\instrumented\cobertura.ser" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="C:\TwitterClient\TwitterClient" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="D:\安装文件\apache-ant-1.8.4-bin\apache-ant-1.8.4\lib\ant.jar" />
+    <property name="file.encoding" value="GBK" />
+    <property name="XstartOnFirstThread" value="" />
+    <property name="src-dir" value="C:\TwitterClient\TwitterClient\src" />
+    <property name="out-dir" value="C:\TwitterClient\TwitterClient\bin" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="coverage" />
+    <property name="lib-dir" value="C:\TwitterClient\TwitterClient\lib" />
+  </properties>
+  <testcase classname="test.hk.ust.cse.TwitterClient.Views.ViewsTest" name="ViewsConstructor" time="2.445" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Error from UserMenuTest</title>
+</head>
+<body>
+<pre>java.lang.NoSuchMethodException: org.eclipse.swt.widgets.Shell.aaa(org.eclipse.swt.events.MouseEvent)
+	at java.lang.Class.getMethod(Class.java:1624)
+	at hk.ust.cse.TwitterClient.Views.Basic.ClickableImageLabel$2.mouseDown(ClickableImageLabel.java:48)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at test.hk.ust.cse.TwitterClient.Views.User.UserMenuTest.testConstructor(UserMenuTest.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$1$1.call(MethodRoadie.java:55)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+</pre>
+</body>
+</html>

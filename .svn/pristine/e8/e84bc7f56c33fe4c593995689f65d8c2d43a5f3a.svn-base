@@ -1,0 +1,212 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBackgroundImageUrlHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBackgroundImageUrlHttps">testGetProfileBackgroundImageUrlHttps</a></td><td>Success</td><td></td><td>0.027</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testWholePage"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testWholePage">testWholePage</a></td><td>Error</td><td>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.
+message - Sorry, that page does not exist
+code - 34
+<br>
+<br>
+<code>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.<br>message - Sorry, that page does not exist<br>code - 34<br>
+<br>Relevant discussions can be found on the Internet at:<br>	http://www.google.co.jp/search?q=b029ad3d or<br>	http://www.google.co.jp/search?q=119baa9d<br>TwitterException{exceptionCode=[b029ad3d-119baa9d], statusCode=404, message=Sorry, that page does not exist, code=34, retryAfter=-1, rateLimitStatus=null, version=3.0.3}<br>	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)<br>	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)<br>	at twitter4j.internal.http.HttpClientWrapper.post(HttpClientWrapper.java:98)<br>	at twitter4j.TwitterImpl.post(TwitterImpl.java:1853)<br>	at twitter4j.TwitterImpl.retweetStatus(TwitterImpl.java:260)<br>	at hk.ust.cse.TwitterClient.Views.TweetView.retweetgfunction(TweetView.java:319)<br>	at hk.ust.cse.TwitterClient.Views.WholePageTest.testWholePage(WholePageTest.java:131)<br>
+</code></td><td>7.030</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetRateLimitStatus"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetRateLimitStatus">testGetRateLimitStatus</a></td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testCompareTo"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testCompareTo">testCompareTo</a></td><td>Success</td><td></td><td>0.008</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetAccessLevel"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetAccessLevel">testGetAccessLevel</a></td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetCreatedAt"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetCreatedAt">testGetCreatedAt</a></td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetBiggerProfileImageURLHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetBiggerProfileImageURLHttps">testGetBiggerProfileImageURLHttps</a></td><td>Success</td><td></td><td>0.005</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetDescriptionURLEntities"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetDescriptionURLEntities">testGetDescriptionURLEntities</a></td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetMiniProfileImageURLHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetMiniProfileImageURLHttps">testGetMiniProfileImageURLHttps</a></td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetOriginalProfileImageURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetOriginalProfileImageURL">testGetOriginalProfileImageURL</a></td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetOriginalProfileImageURLHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetOriginalProfileImageURLHttps">testGetOriginalProfileImageURLHttps</a></td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBackgroundColor"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBackgroundColor">testGetProfileBackgroundColor</a></td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBackgroundImageURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBackgroundImageURL">testGetProfileBackgroundImageURL</a></td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBackgroundImageUrl"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBackgroundImageUrl">testGetProfileBackgroundImageUrl</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerIPadRetinaURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerIPadRetinaURL">testGetProfileBannerIPadRetinaURL</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerMobileRetinaURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerMobileRetinaURL">testGetProfileBannerMobileRetinaURL</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerMobileURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerMobileURL">testGetProfileBannerMobileURL</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerRetinaURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerRetinaURL">testGetProfileBannerRetinaURL</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileSidebarBorderColor"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileSidebarBorderColor">testGetProfileSidebarBorderColor</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetId"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetId">testGetId</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetLang"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetLang">testGetLang</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetName"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetName">testGetName</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetURL">testGetURL</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetBiggerProfileImageURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetBiggerProfileImageURL">testGetBiggerProfileImageURL</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetFavouritesCount"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetFavouritesCount">testGetFavouritesCount</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetFollowersCount"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetFollowersCount">testGetFollowersCount</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetMiniProfileImageURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetMiniProfileImageURL">testGetMiniProfileImageURL</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerIPadURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerIPadURL">testGetProfileBannerIPadURL</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileBannerURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileBannerURL">testGetProfileBannerURL</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileImageURL"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileImageURL">testGetProfileImageURL</a></td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileImageURLHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileImageURLHttps">testGetProfileImageURLHttps</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileImageUrlHttps"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileImageUrlHttps">testGetProfileImageUrlHttps</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileLinkColor"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileLinkColor">testGetProfileLinkColor</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileTextColor"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileTextColor">testGetProfileTextColor</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsContributorsEnabled"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsContributorsEnabled">testIsContributorsEnabled</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsFollowRequestSent"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsFollowRequestSent">testIsFollowRequestSent</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsProfileBackgroundTiled"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsProfileBackgroundTiled">testIsProfileBackgroundTiled</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsShowAllInlineMedia"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsShowAllInlineMedia">testIsShowAllInlineMedia</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetFriendsCount"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetFriendsCount">testGetFriendsCount</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetListedCount"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetListedCount">testGetListedCount</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetScreenName"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetScreenName">testGetScreenName</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetStatus"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetStatus">testGetStatus</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetStatusesCount"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetStatusesCount">testGetStatusesCount</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetTimeZone"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetTimeZone">testGetTimeZone</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetURLEntity"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetURLEntity">testGetURLEntity</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetUtcOffset"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetUtcOffset">testGetUtcOffset</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsGeoEnabled"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsGeoEnabled">testIsGeoEnabled</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsProtected"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsProtected">testIsProtected</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsTranslator"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsTranslator">testIsTranslator</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsVerified"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsVerified">testIsVerified</a></td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testGetProfileSidebarFillColor"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testGetProfileSidebarFillColor">testGetProfileSidebarFillColor</a></td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testIsProfileUseBackgroundImage"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testIsProfileUseBackgroundImage">testIsProfileUseBackgroundImage</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Resources/1_ResourceTest.html">ResourceTest</a></td><td><a name="test"></a><a href="test/hk/ust/cse/TwitterClient/Resources/1_ResourceTest.html#test">test</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testLoadImageFromUrl"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testLoadImageFromUrl">testLoadImageFromUrl</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testAddClickListener"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testAddClickListener">testAddClickListener</a></td><td>Success</td><td></td><td>0.267</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testIsNullOrEmpty"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testIsNullOrEmpty">testIsNullOrEmpty</a></td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testCutRoundCorner"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testCutRoundCorner">testCutRoundCorner</a></td><td>Success</td><td></td><td>0.047</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testGetColorFromString"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testGetColorFromString">testGetColorFromString</a></td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html">UtilsTest</a></td><td><a name="testSelectImageVersion"></a><a href="test/hk/ust/cse/TwitterClient/2_UtilsTest.html#testSelectImageVersion">testSelectImageVersion</a></td><td>Success</td><td></td><td>0.613</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/hk/ust/cse/TwitterClient/Views/User/3_UserMenuTest.html">UserMenuTest</a></td><td><a name="testConstructor"></a><a href="test/hk/ust/cse/TwitterClient/Views/User/3_UserMenuTest.html#testConstructor">testConstructor</a></td><td>Success</td><td></td><td>1.093</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="test/org/eclipse/wb/swt/4_SWTResourceManagerTest.html">SWTResourceManagerTest</a></td><td><a name="testConstructor"></a><a href="test/org/eclipse/wb/swt/4_SWTResourceManagerTest.html#testConstructor">testConstructor</a></td><td>Success</td><td></td><td>0.132</td>
+</tr>
+</table>
+</body>
+</html>

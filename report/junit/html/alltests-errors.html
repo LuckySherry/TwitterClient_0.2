@@ -1,0 +1,32 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Errors</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Errors</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html">WholePageTest</a></td><td><a name="testWholePage"></a><a href="hk/ust/cse/TwitterClient/Views/0_WholePageTest.html#testWholePage">testWholePage</a></td><td>Error</td><td>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.
+message - Sorry, that page does not exist
+code - 34
+<br>
+<br>
+<code>404:The URI requested is invalid or the resource requested, such as a user, does not exists. Also returned when the requested format is not supported by the requested method.<br>message - Sorry, that page does not exist<br>code - 34<br>
+<br>Relevant discussions can be found on the Internet at:<br>	http://www.google.co.jp/search?q=b029ad3d or<br>	http://www.google.co.jp/search?q=119baa9d<br>TwitterException{exceptionCode=[b029ad3d-119baa9d], statusCode=404, message=Sorry, that page does not exist, code=34, retryAfter=-1, rateLimitStatus=null, version=3.0.3}<br>	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)<br>	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)<br>	at twitter4j.internal.http.HttpClientWrapper.post(HttpClientWrapper.java:98)<br>	at twitter4j.TwitterImpl.post(TwitterImpl.java:1853)<br>	at twitter4j.TwitterImpl.retweetStatus(TwitterImpl.java:260)<br>	at hk.ust.cse.TwitterClient.Views.TweetView.retweetgfunction(TweetView.java:319)<br>	at hk.ust.cse.TwitterClient.Views.WholePageTest.testWholePage(WholePageTest.java:131)<br>
+</code></td><td>7.030</td>
+</tr>
+</table>
+</body>
+</html>

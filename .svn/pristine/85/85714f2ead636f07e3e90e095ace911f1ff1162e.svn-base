@@ -1,0 +1,32 @@
+package test.hk.ust.cse.TwitterClient;
+
+import junit.framework.TestCase;
+
+import org.junit.Test;
+
+import twitter4j.conf.ConfigurationBuilder;
+import hk.ust.cse.TwitterClient.TwitterClient;
+
+public class TwitterClientTest extends TestCase{
+	
+ @Test(timeout=10000)
+ public void testConstructor() throws Throwable {
+	 
+	 ConfigurationBuilder builder = new ConfigurationBuilder();
+	    builder.setDebugEnabled(false);
+		
+	    builder.setOAuthConsumerKey("Axri4B2wPTb57aCKAgv2w");
+	    		
+	    builder.setOAuthConsumerSecret("uVu2bTRkgBERJa1NvPIBFaA9Dmg9oHsRuwn0X0dlc");
+	    		
+	    builder.setOAuthAccessToken("1211007799-hVougNI9GlCdMpbeZJQo4bzMxvBbjcRpyLhJWHy");
+	    		
+	    builder.setOAuthAccessTokenSecret("MYKZgcgl9Z1Yf1ReCx3iP02svo6UZ5U1oo1xVJnuNE");
+	 TwitterClient tc=new TwitterClient(1000,1000);
+	 TwitterClient.main(null);
+	 tc.toString();
+ }
+ public void testMain() throws Throwable{
+	
+ }
+}
