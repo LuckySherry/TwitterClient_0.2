@@ -10,26 +10,18 @@ import hk.ust.cse.TwitterClient.Views.Basic.RowComposite;
 import hk.ust.cse.TwitterClient.Views.Home.RepliesList;
 import hk.ust.cse.TwitterClient.Views.User.UserPage;
 
-import javax.swing.*;
 import org.eclipse.swt.graphics.Point;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.DataInputStream;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
-import java.util.Scanner;
-
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.SWTException;
 import org.eclipse.swt.custom.StyleRange;
 import org.eclipse.swt.custom.StyledText;
 import org.eclipse.swt.events.DisposeEvent;
@@ -59,15 +51,9 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.wb.swt.SWTResourceManager;
-import org.omg.CORBA.PRIVATE_MEMBER;
-import org.omg.CORBA.PUBLIC_MEMBER;
-import org.osgi.resource.Resource;
-
 import twitter4j.HashtagEntity;
-import twitter4j.MediaEntity;
 import twitter4j.Status;
 import twitter4j.StatusUpdate;
-import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.URLEntity;
 import twitter4j.User;
@@ -603,7 +589,8 @@ public static void MyopenWebpage(URL url){
   
 //cwk "write" this funtion for delete
 	public void deleteFuntion(MouseEvent arg) throws TwitterException {
-		TwitterControl.getTwitter().destroyStatus(m_tweet.getId());
+		
+		displaySucessWindow2();
 	}
   
   //wym wrote this part for favorate
@@ -713,20 +700,44 @@ public static void MyopenWebpage(URL url){
 	}
   
   private String createTimeString(Date time) {
+    /*
     long difference = (System.currentTimeMillis() - time.getTime()) / 1000;
     
     String str = null;
     if (difference < 60) {
       str = difference + "s";
     }
-    else if (difference >= 60 && difference < 3600 /* an hour */) {
-      str = (difference / 60) + "m";
-    }
-    else if (difference >= 3600 && difference < 86400 /* a day */) {
-      str = (difference / 3600) + "h";
-    }
+    */
+    //else if (difference >= 60 && difference < 3600 /* an hour */) {
+    //  str = (difference / 60) + "m";
+    //}
+    //else if (difference >= 3600 && difference < 86400 /* a day */) {
+    //  str = (difference / 3600) + "h";
+    //}
+	/*
     else {
       str = new SimpleDateFormat("dd MMM").format(time);
+    }
+    return str;
+    */
+
+    String str = null;
+    Date date = new Date();   // current time
+    Calendar currentTime = GregorianCalendar.getInstance(); // creates a new calendar instance
+    Calendar tweetTime = GregorianCalendar.getInstance(); // creates a new calendar instance
+    currentTime.setTime(date);   // assigns calendar to current time
+    tweetTime.setTime(time);   // assigns calendar to tweet creation time
+    
+    // in case the tweet is on that day
+    if (tweetTime.get(Calendar.YEAR) == currentTime.get(Calendar.YEAR) // compare year
+        && tweetTime.get(Calendar.MONTH) == currentTime.get(Calendar.MONTH) // compare month
+        && tweetTime.get(Calendar.DATE) == currentTime.get(Calendar.DATE) // compare date
+       ) {
+      str = new SimpleDateFormat("HH:mm").format(time);
+    }
+    // in case the tweet had a day old
+    else {
+      str = new SimpleDateFormat("MMM dd").format(time);
     }
     return str;
   }
@@ -789,7 +800,72 @@ public static void MyopenWebpage(URL url){
 		SucShell.open();
   }
   
-  
+  private void displaySucessWindow2()
+  {
+	  final Shell SucShell2;
+	  Text txtSuccessfullyReplyTo2;
+	  
+	    SucShell2 = new Shell();
+		SucShell2.setBackground(SWTResourceManager.getColor(SWT.COLOR_WIDGET_LIGHT_SHADOW));
+		SucShell2.setSize(260, 120);
+		SucShell2.setText("WARNING!!!!!!!!!!!!!!!!!");
+		SucShell2.setLayout(new FormLayout());
+		
+		txtSuccessfullyReplyTo2 = new Text(SucShell2, SWT.BORDER | SWT.WRAP | SWT.CENTER | SWT.MULTI);
+		txtSuccessfullyReplyTo2.setBackground(SWTResourceManager.getColor(0, 204, 255));
+		txtSuccessfullyReplyTo2.setEditable(false);
+		txtSuccessfullyReplyTo2.setText("WANT TO DELETE IT?");
+		FormData fd_txtSuccessfullyReplyTo2 = new FormData();
+		fd_txtSuccessfullyReplyTo2.top = new FormAttachment(0);
+		fd_txtSuccessfullyReplyTo2.left = new FormAttachment(0);
+		fd_txtSuccessfullyReplyTo2.right = new FormAttachment(100);
+		txtSuccessfullyReplyTo2.setLayoutData(fd_txtSuccessfullyReplyTo2);
+		
+		Button btnNewButton2 = new Button(SucShell2, SWT.NONE);
+		btnNewButton2.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseDown(MouseEvent arg0) {
+				try {
+					TwitterControl.getTwitter().destroyStatus(m_tweet.getId());
+				} catch (TwitterException e) {
+					Shell errShell = new Shell();
+					errShell.setSize(300, 172);
+					errShell.setText("ERROR!!!!!!!!!!!!!!!!!");
+					errShell.setLayout(new FillLayout(SWT.HORIZONTAL));
+					
+					Label errLabel = new Label(errShell, SWT.WRAP);
+					errLabel.setText(e.getErrorMessage());
+					errShell.open();
+				}
+				SucShell2.close();
+			}
+		});
+		FormData fd_btnNewButton2 = new FormData();
+		fd_btnNewButton2.bottom = new FormAttachment(100);
+		fd_btnNewButton2.left = new FormAttachment(0);
+		fd_btnNewButton2.top = new FormAttachment(100, -27);
+		btnNewButton2.setLayoutData(fd_btnNewButton2);
+		btnNewButton2.setText("Yes, I Do!");
+		
+		Button btnNewButton_2 = new Button(SucShell2, SWT.NONE);
+		btnNewButton_2.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseDown(MouseEvent arg0) {
+			
+				SucShell2.close();
+				
+			}
+		});
+		fd_txtSuccessfullyReplyTo2.bottom = new FormAttachment(btnNewButton_2, -6);
+		fd_btnNewButton2.right = new FormAttachment(btnNewButton_2, -1);
+		FormData fd_btnNewButton_2 = new FormData();
+		fd_btnNewButton_2.left = new FormAttachment(0, 122);
+		fd_btnNewButton_2.right = new FormAttachment(100);
+		fd_btnNewButton_2.bottom = new FormAttachment(100);
+		btnNewButton_2.setLayoutData(fd_btnNewButton_2);
+		btnNewButton_2.setText("No, Thanks.");
+		SucShell2.open();
+  }
   private void widgetDisposed(DisposeEvent e) {
     // dispose loaded images
     Utils.dispose(m_icon);
